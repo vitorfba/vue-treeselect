@@ -1,8 +1,8 @@
 {
-  "name": "@sookoll/vue-treeselect",
-  "author": "Mihkel Oviir",
+  "name": "@vitorfba/vue-treeselect",
+  "author": "vitorfba",
   "license": "MIT",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "description": "Tree select hierarchical component for vue 3 (compat).",
   "type": "module",
   "exports": {
@@ -23,11 +23,11 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sookoll/vue-treeselect.git"
+    "url": "git+https://github.com/vitorfba/vue-treeselect.git"
   },
-  "homepage": "https://github.com/sookoll/vue-treeselect#readme",
+  "homepage": "https://github.com/vitorfba/vue-treeselect#readme",
   "bugs": {
-    "url": "https://github.com/sookoll/vue-treeselect/issues"
+    "url": "https://github.com/vitorfba/vue-treeselect/issues"
   },
   "scripts": {
     "build": "vite build",

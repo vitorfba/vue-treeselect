@@ -69,7 +69,7 @@ export default {
     }
   },
 
-  emits: ['update:modelValue', 'updated', 'search-change', 'close', 'open', 'select', 'deselect'],
+  emits: ['update:modelValue', 'updated', 'search-change', 'close', 'open', 'select', 'deselect', 'input'],
 
   props: {
     /**
@@ -840,6 +840,7 @@ export default {
       // We emit the `input` event only when the value actually changes.
       if (hasChanged) {
         this.$emit('update:modelValue', this.getValue(), this.getInstanceId())
+        this.$emit('input', this.getValue(), this.getInstanceId())
         this.$emit('updated', this.getValue(), this.getInstanceId())
       }
     },
