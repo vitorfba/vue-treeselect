@@ -2,7 +2,7 @@
   "name": "@vitorfba/vue-treeselect",
   "author": "vitorfba",
   "license": "MIT",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Tree select hierarchical component for vue 3 (compat).",
   "type": "module",
   "exports": {
